@@ -24,19 +24,21 @@ class WelcomeView extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(height: 30),
-                  RichText(
-                    text: const TextSpan(
+                  const Text.rich(
+                    TextSpan(
                       text: 'HARD\t',
                       style: TextStyle(
-                        fontFamily: "Bebas",
                         fontSize: 30,
+                        fontFamily: 'Bebas',
                         letterSpacing: 5,
                       ),
-                      children: <TextSpan>[
+                      children: [
                         TextSpan(
                           text: 'ELEMENT',
-                          style: TextStyle(color: firstColor),
-                        )
+                          style: TextStyle(
+                            color: firstColor,
+                          ),
+                        ),
                       ],
                     ),
                   ),
