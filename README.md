@@ -9,6 +9,9 @@ A Workout Fitness App called `Aqua` built with **Flutter** framework which is an
 - [flutter_svg](https://pub.dev/packages/flutter_svg): An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
 - [intl](https://pub.dev/packages/intl): Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
 
+## Resources
+- [Flutter](https://flutter.dev)
+- [Package Manager `Pub.dev`](https://pub.dev)
 
 This project is a starting point for a Flutter application.
 
